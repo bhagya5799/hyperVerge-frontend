@@ -1,0 +1,55 @@
+.home {
+  width: 100dvw;
+  height: 100dvh;
+  /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  overflow: hidden;
+}
+nav {
+  height: 3rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  
+}
+th{
+    color: rgb(4, 4, 129);
+}
+.res-container {
+  display: flex;
+}
+.delete-btn {
+  background-color: rgb(223, 80, 80);
+  border-width: 0;
+  color: white;
+  padding: 8px 10px;
+
+  border-radius: 5px;
+}
+Link{
+    color: white;
+}
+.user-btn{
+    margin-left: 1rem;
+    height: 2rem;
+    border-radius: 4px;
+    /* background-color: rgb(45, 45, 239); */
+}
