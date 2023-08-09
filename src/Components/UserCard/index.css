@@ -1,0 +1,24 @@
+.user-card{
+    /* border:  1px solid gray; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 1rem;
+    width: 230px;
+
+    padding: 1rem;
+}
+.usercard-container{
+    padding: 1rem;
+}
+.usercard-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.head{
+    color: rgb(9, 9, 120);
+    font-weight: bold;
+}
+p{
+    color: rgb(11, 11, 84);
+}
