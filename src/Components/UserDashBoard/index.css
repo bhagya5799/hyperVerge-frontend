@@ -1,6 +1,6 @@
 .user-dashboard {
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100vh;
 }
 
@@ -8,45 +8,94 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.user-icon {
+  font-size: 170px;
+}
+.container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.user-title {
+  color: rgb(6, 6, 74);
+  text-align: center;
+}
+h4 {
+  color: rgb(8, 8, 83);
+}
+.user-value {
+  color: rgb(10, 10, 145);
+}
+.nav-user {
+  padding-left: 1rem;
+}
+.back-btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  /* background-color: blue; */
+}
+.updateBtn {
+  background-color: rgb(56, 175, 29);
+  padding: 6px 10px;
+  border-width: 0;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+td,
+tr {
+  padding: 0.5rem;
+  font-size: 14px;
+}
 
-  
+.edit-btn {
+  padding: 8px 15px;
+  background-color: rgb(190, 190, 22);
+  font-weight: bold;
+  border-width: 0;
+  border-radius: 4px;
 }
-.user-icon{
-    font-size: 170px;
+
+
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem;
+  padding: 2rem;
 }
-.container{
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+@media screen and (max-width: 668px) {
+  .container {
+    margin-left: 1rem;
+    margin: 1rem;
+  }
+  .vertical-form{
     display: flex;
-    gap: 1rem;
-    margin-top: 5rem;
-    border-radius: 4px;
-    padding: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.user-title{
-    color: rgb(6, 6, 74);
-    text-align: center;
-}
-h4{
-     color: rgb(8, 8, 83);
-}
-.user-value{
-    color: rgb(10, 10, 145);
-}
-.nav-user{
-    padding-left: 1rem;
-}
-.back-btn{
-    padding: 8px 12px;
-    border-radius: 5px;
+    flex-direction: column;
+  }
+  .lable-input{
     display: flex;
-    align-items: center;
-    gap: 3px;
-    /* background-color: blue; */
-}
-
-@media screen and (max-width:668px){
-    .container{
-        margin-left: 1rem;
-    }
-
+      flex-direction: column;
+  }
+  .user-icon{
+    font-size: 150px;
+  }
 }

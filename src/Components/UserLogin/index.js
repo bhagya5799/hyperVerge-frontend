@@ -30,7 +30,7 @@ const UserLogin = (props) => {
         setLoading(true)
         const response = await fetch(userApi, options)
         const data = await response.json()
-        console.log(data.user.id, 'dat')
+        console.log(response, 'dat')
         setLoading(false)
         if (response.ok === true) {
             navigate("/userDashboard")
@@ -69,7 +69,7 @@ const UserLogin = (props) => {
                                 wrapperStyle
                                 wrapperClass
                             />) : 'Login'}</button>
-                        </div>
+                        </div><br/>
                         {errorMessage && <p className='error-message'>{errorMessage}</p>}
                         <Link to={`/signup`} >
                             <p className='link'>Don't have Account </p>

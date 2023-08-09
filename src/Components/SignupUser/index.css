@@ -49,7 +49,7 @@ input {
 }
 .error-message {
   color: red;
-  text-align: center;
+  text-align: left;
   margin-top: -15px;
 }
 .choose-master-student-card {
