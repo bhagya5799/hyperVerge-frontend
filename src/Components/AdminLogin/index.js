@@ -53,11 +53,11 @@ const AdminLogin = (props) => {
             <h2 className='loginPage-title'>Admin Login</h2>
             <label htmlFor='user'>UserName</label>
             <div className='input-card'>
-              <input id='user' type="text" value={userName} placeholder='userName' onChange={(e) => setuserName(e.target.value)} />
+              <input id='user' type="text" value={userName} placeholder='username: bhagya' onChange={(e) => setuserName(e.target.value)} />
             </div>&nbsp; <br /> 
             <label htmlFor='Mailpassword'>password</label>
             <div className='input-card'>
-              <input id='Mailpassword' type="password" value={userPass} placeholder='password' onChange={(e) => setPassword(e.target.value)} />
+              <input id='Mailpassword' type="password" value={userPass} placeholder='password:bhagya2023' onChange={(e) => setPassword(e.target.value)} />
             </div>&nbsp; <br /> 
             <div className='log-btn-c'>
               <button type='submit' className='login-btn'>{loading ? 'Loading...' : 'Login'}</button>
