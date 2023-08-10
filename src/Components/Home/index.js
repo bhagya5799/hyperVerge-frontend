@@ -34,9 +34,6 @@ const Home = () => {
     return (
         <div className='home'>
             <nav>
-                <Link to='/user'>
-                    {/* <button className='user-btn'>User Login</button> */}
-                </Link>
                 <Link to='/Admin'>
                     <button className='user-btn'>Admin Login</button>
                 </Link>

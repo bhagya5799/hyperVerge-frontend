@@ -74,4 +74,7 @@ table{
   display: flex;
   flex-wrap: nowrap
 };
+.user-btn{
+  color: black;
+}
 }
