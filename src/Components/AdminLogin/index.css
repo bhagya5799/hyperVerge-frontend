@@ -40,10 +40,16 @@ width: 6rem;
 .link{
   color: rgb(29, 24, 189);
   text-decoration: none;
-  margin-top: -2px;
+  
+  
+}
+.links{
+  color: rgb(29, 24, 189);
+  text-decoration: none;
+ 
   
 }
 Link{
   text-decoration: none;
-  
+   margin-top: -10px;
 }

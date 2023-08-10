@@ -64,7 +64,7 @@ const AdminLogin = (props) => {
             </div>
             <p className='error-message'>{errorMessage}</p>
             <Link to="/user">
-              <p className='link' >Not a Admin? Login as a User</p>
+              <p className='links' >Not a Admin? Login as a User</p>
             </Link>
           </form>
         </div>

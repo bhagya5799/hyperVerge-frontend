@@ -20,7 +20,7 @@ const UserDashBoard = () => {
     useEffect(() => {
         getUserData()
 
-    }, [])
+    },[])
     const getUserData = async () => {
         try {
             const response = await fetch(`https://hyper-back.onrender.com/getOne/${Id}`);
@@ -48,6 +48,10 @@ const UserDashBoard = () => {
             await axios.put(`https://hyper-back.onrender.com/updateUser/${updateUserName}`, updatedData);
             getUserData(); // Refresh user data after update
             setUpdateErrorMsz('');
+            setUpdateUserName('')
+            setUpdateEmail('')
+            setUpdateAddress('')
+            setUpdatePhone('')
         } catch (error) {
             console.error(error);
             setUpdateErrorMsz(error.response.data.error);
@@ -94,7 +98,6 @@ const UserDashBoard = () => {
                             <th>Updated Email</th>
                             <th>Updated Address</th>
                             <th>Update PhoneNumber</th>
-
                         </tr>
                     </thead>
                     <tbody>

@@ -50,7 +50,7 @@ input {
 .error-message {
   color: red;
   text-align: left;
-  margin-top: -15px;
+  margin-top: 2px;
 }
 .choose-master-student-card {
   display: flex;
